@@ -431,7 +431,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -447,8 +447,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "SamacSys_Parts",
+      "Custom_Connector"
+    ],
+    "pinned_symbol_libs": [
+      "SamacSys_Parts"
+    ]
   },
   "meta": {
     "filename": "RFID_Reader.kicad_pro",
@@ -597,6 +602,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -617,10 +630,6 @@
     [
       "68791068-2e08-46a9-8a2f-80be28f652d5",
       "Antenna"
-    ],
-    [
-      "776dd80b-b13d-4c18-b306-b3f999a18da1",
-      "Power"
     ]
   ],
   "text_variables": {}
