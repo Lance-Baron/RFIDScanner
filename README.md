@@ -1,1 +1,1 @@
-Here is a project, where we try to make a RFID Scanner, where we make a custome PCB, Antenna, and write all the code. Down the line we may add all the KiCad Files.
+Here is a project, where we try to make a RFID Scanner, where we make a custome PCB, Antenna, and write all the code. The Code folder contains all of the files needed to program the microcontrollers, and the ECAD folder contains all of the KiCad Files in for the project. 
