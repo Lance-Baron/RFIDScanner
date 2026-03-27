@@ -5,50 +5,50 @@
 	(uuid "4670be35-0898-46f4-be4d-f086d3203cc5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Plug"
+		(symbol "2026-03-16_18-54-40:2171830001"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
-				(at -10.16 29.21 0)
+			(property "Reference" "J"
+				(at 25.4 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug"
-				(at 10.16 29.21 0)
+			(property "Value" "2171830001"
+				(at 25.4 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" ""
-				(at 3.81 0 0)
+			(property "Footprint" "CONN_2171830001_MOL"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 3.81 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Type-C Plug connector"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2171830001?display=pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +57,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "2171830001"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "CONN_2171830001_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,334 +83,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Plug_0_0"
-				(rectangle
-					(start -0.254 -35.56)
-					(end 0.254 -34.544)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 25.654)
-					(end 9.144 25.146)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 20.574)
-					(end 9.144 20.066)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 18.034)
-					(end 9.144 17.526)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 12.954)
-					(end 9.144 12.446)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 0.254)
-					(end 9.144 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -7.366)
-					(end 9.144 -7.874)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -9.906)
-					(end 9.144 -10.414)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -17.526)
-					(end 9.144 -18.034)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -22.606)
-					(end 9.144 -23.114)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -25.146)
-					(end 9.144 -25.654)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -30.226)
-					(end 9.144 -30.734)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -32.766)
-					(end 9.144 -33.274)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_C_Plug_0_1"
-				(rectangle
-					(start -10.16 27.94)
-					(end 10.16 -35.56)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "2171830001_0_1"
 				(polyline
 					(pts
-						(xy -8.89 -3.81) (xy -8.89 3.81)
+						(xy 7.62 5.08) (xy 7.62 -33.02)
 					)
 					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -3.81)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -8.89 3.81)
-					(mid -6.985 5.7067)
-					(end -5.08 3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -3.81)
-					(mid -6.985 -5.7067)
-					(end -8.89 -3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_C_Plug_1_1"
-				(circle
-					(center -2.54 1.143)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -411,10 +98,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+						(xy 7.62 -33.02) (xy 43.18 -33.02)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -423,59 +110,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.842) (xy 0 4.318)
+						(xy 43.18 5.08) (xy 7.62 5.08)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy 43.18 -33.02) (xy 43.18 5.08)
+					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -7.62 -40.64 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 90)
-					(length 5.08)
+				(pin power_out line
+					(at 0 0 0)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -491,37 +150,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -40.64 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "SSTXP1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -529,18 +168,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -40.64 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "SSTXN1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B12"
+					(number "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -548,9 +186,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 15.24 25.4 180)
-					(length 5.08)
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 7.62)
 					(name "VBUS"
 						(effects
 							(font
@@ -566,67 +204,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 15.24 25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 20.32 180)
-					(length 5.08)
-					(name "CC"
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -641,46 +222,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 17.78 180)
-					(length 5.08)
-					(name "VCONN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 12.7 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "D+"
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "DP1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -695,35 +240,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "RX1-"
+				(pin unspecified line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "DN1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "RX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B11"
+					(number "A7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -731,117 +258,9 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "TX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(name "TX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "RX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -17.78 180)
-					(length 5.08)
-					(name "RX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -22.86 180)
-					(length 5.08)
-					(name "TX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -25.4 180)
-					(length 5.08)
-					(name "TX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -30.48 180)
-					(length 5.08)
+				(pin unspecified line
+					(at 0 -17.78 0)
+					(length 7.62)
 					(name "SBU1"
 						(effects
 							(font
@@ -857,9 +276,153 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -33.02 180)
-					(length 5.08)
+				(pin power_in line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "SSRXN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "SSRXP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -2.54 180)
+					(length 7.62)
+					(name "SSRXP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -5.08 180)
+					(length 7.62)
+					(name "SSRXN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -7.62 180)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -10.16 180)
+					(length 7.62)
 					(name "SBU2"
 						(effects
 							(font
@@ -868,6 +431,212 @@
 						)
 					)
 					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -12.7 180)
+					(length 7.62)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -15.24 180)
+					(length 7.62)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -17.78 180)
+					(length 7.62)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -20.32 180)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -22.86 180)
+					(length 7.62)
+					(name "SSTXN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -25.4 180)
+					(length 7.62)
+					(name "SSTXP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 50.8 -27.94 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom_Connectors:TH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at -2.286 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TH_1_1"
+				(circle
+					(center 0.254 0)
+					(radius 0.762)
+					(stroke
+						(width 0.635)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1353,6 +1122,196 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1991,6 +1950,24 @@
 						)
 					)
 					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 44.45 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2727,187 +2704,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ThroughHole_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "ThroughHole"
-				(at 7.112 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ThroughHole_2_1_1"
-				(circle
-					(center -0.254 0)
-					(radius 0.762)
-					(stroke
-						(width 0.762)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDD"
 			(power)
 			(pin_numbers
@@ -3022,50 +2818,60 @@
 		)
 	)
 	(junction
-		(at 266.7 83.82)
+		(at 120.65 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ddd1b33-c1e0-425b-a56d-e55aa8906dd5")
-	)
-	(junction
-		(at 113.03 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a8b5685-83df-4e26-97ac-70ad3b49981b")
+		(uuid "1b9d43ca-2f62-400c-9e25-87057efc9583")
 	)
 	(junction
 		(at 113.03 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc967385-ca73-498e-baa3-0b2f528a1970")
+		(uuid "849eb657-2354-4eb3-b0b6-62df15e74adc")
+	)
+	(junction
+		(at 113.03 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0dd4919-ad7e-4513-bbe8-7ccccc79020b")
+	)
+	(junction
+		(at 130.81 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b417a5-7691-4188-b640-dc0f84ac1762")
 	)
 	(no_connect
-		(at 181.61 82.55)
-		(uuid "0731cf72-9a0d-4b69-be6c-d15d104dbf88")
+		(at 229.87 101.6)
+		(uuid "00f32de5-d45d-4b44-bc68-c3c451e7c6bb")
+	)
+	(no_connect
+		(at 229.87 104.14)
+		(uuid "098a3ba1-172d-4f60-9852-36c59d83f686")
+	)
+	(no_connect
+		(at 190.5 123.19)
+		(uuid "09e19b57-b798-45ba-8c09-98f305d390a7")
 	)
 	(no_connect
 		(at 256.54 93.98)
 		(uuid "16f3b936-bc05-44b2-ad20-bb48ac7e2693")
 	)
 	(no_connect
-		(at 181.61 67.31)
-		(uuid "1bcb620f-8561-487d-b9a5-2cf389068e10")
-	)
-	(no_connect
 		(at 256.54 101.6)
 		(uuid "3a603233-ec0c-4902-83b9-a5c9d9706d82")
 	)
 	(no_connect
-		(at 181.61 52.07)
-		(uuid "47f52325-3118-44b1-8fdc-e1f9b64e94da")
+		(at 190.5 125.73)
+		(uuid "5282c5e2-335c-4bec-b6cf-4ad83f42c13a")
 	)
 	(no_connect
 		(at 256.54 88.9)
 		(uuid "54d19e40-ee7b-48b8-85f3-28c776410d86")
 	)
 	(no_connect
-		(at 181.61 49.53)
-		(uuid "5a44751a-8e7a-4e12-9171-ff67761c7dad")
+		(at 229.87 106.68)
+		(uuid "5cc36678-0371-4a76-ae85-171e3843cf0d")
 	)
 	(no_connect
 		(at 229.87 60.96)
@@ -3076,32 +2882,60 @@
 		(uuid "6da59719-e776-47c7-b3c4-b28bb9144cbb")
 	)
 	(no_connect
-		(at 256.54 86.36)
-		(uuid "8c181359-f857-4d67-91d0-83c570e2be66")
+		(at 139.7 123.19)
+		(uuid "73cb96d3-42ae-4a72-a201-54ec48e528c6")
 	)
 	(no_connect
-		(at 181.61 59.69)
-		(uuid "8d22e146-43a3-4e6f-8fb0-c35183756df3")
+		(at 229.87 88.9)
+		(uuid "7fd44246-b585-4c5f-afb6-e75d10b66426")
+	)
+	(no_connect
+		(at 139.7 105.41)
+		(uuid "8bb3c216-96c7-4d7f-a7ff-40840bce0e4e")
+	)
+	(no_connect
+		(at 256.54 86.36)
+		(uuid "8c181359-f857-4d67-91d0-83c570e2be66")
 	)
 	(no_connect
 		(at 256.54 81.28)
 		(uuid "944b99a5-912c-49be-ad21-5b9a6922548d")
 	)
 	(no_connect
-		(at 181.61 80.01)
-		(uuid "9cd21ae8-803b-4d98-80cd-a59fa3277834")
+		(at 139.7 125.73)
+		(uuid "a10eaff8-2a91-4a81-b887-1a9a50bf53ab")
 	)
 	(no_connect
 		(at 256.54 96.52)
 		(uuid "a22269a9-6398-4312-bca4-9b14b3dcae90")
 	)
 	(no_connect
-		(at 181.61 57.15)
-		(uuid "a935bcab-3142-4bd6-a98b-fc5fb26b13d0")
+		(at 139.7 102.87)
+		(uuid "a3b79123-da33-40eb-9643-cd0cd0b93d35")
 	)
 	(no_connect
-		(at 181.61 72.39)
-		(uuid "c8f95d13-f4a2-4a65-8973-87e8b2669800")
+		(at 190.5 102.87)
+		(uuid "b2fd5b08-7309-4ce2-9c8f-7a5746abe4e4")
+	)
+	(no_connect
+		(at 190.5 105.41)
+		(uuid "b74dfc35-7e6d-4122-be81-aaaee6cd65c9")
+	)
+	(no_connect
+		(at 139.7 118.11)
+		(uuid "b8039b80-ac96-4d4c-9178-5a369ad31ae7")
+	)
+	(no_connect
+		(at 229.87 96.52)
+		(uuid "c7b9630e-4a42-4df8-85a1-0ed773b9d239")
+	)
+	(no_connect
+		(at 190.5 110.49)
+		(uuid "cb5e64af-b53e-4e0a-8c07-ee0d2f7f1aaa")
+	)
+	(no_connect
+		(at 229.87 99.06)
+		(uuid "cf2e1864-8a4c-4d70-b316-be1e562bc94a")
 	)
 	(no_connect
 		(at 256.54 106.68)
@@ -3116,44 +2950,50 @@
 		(uuid "e1a2358f-c625-46e6-a5c4-3ccbcd2ac8ed")
 	)
 	(no_connect
-		(at 181.61 74.93)
-		(uuid "f3ff3f54-ea18-4c2d-8f84-bcde397991f7")
-	)
-	(no_connect
-		(at 181.61 64.77)
-		(uuid "f8d74bb5-addf-4b62-8336-1d9f5046c9e3")
+		(at 229.87 91.44)
+		(uuid "eea71d3f-e97c-4e7c-87de-0561203512ad")
 	)
 	(no_connect
 		(at 256.54 104.14)
 		(uuid "fa3fa710-c8b2-4114-8302-a8a3838c254a")
 	)
 	(no_connect
-		(at 181.61 31.75)
-		(uuid "fc11fd9d-d9dc-44de-894c-0ebb81c28d00")
+		(at 229.87 93.98)
+		(uuid "fabc9269-8c5b-4cb4-b5b9-680fbb6003d6")
 	)
 	(wire
 		(pts
-			(xy 194.31 29.21) (xy 196.85 29.21)
+			(xy 102.87 175.26) (xy 105.41 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10128167-1ee4-4dd3-9759-78ba53651a2f")
+		(uuid "0be31bf6-4705-4d09-ab0d-785e4c1034f3")
 	)
 	(wire
 		(pts
-			(xy 266.7 83.82) (xy 271.78 83.82)
+			(xy 120.65 41.91) (xy 121.92 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "107aba97-4674-404d-b55d-f47c93152b54")
+		(uuid "0d43ace1-b37c-400a-a1e4-00eb491587c1")
 	)
 	(wire
 		(pts
-			(xy 149.86 133.35) (xy 154.94 133.35)
+			(xy 153.67 138.43) (xy 156.21 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee4feb6-e76e-4e67-ada8-0bc144dbffff")
+	)
+	(wire
+		(pts
+			(xy 147.32 172.72) (xy 152.4 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3163,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 175.26) (xy 114.3 175.26)
+			(xy 113.03 175.26) (xy 121.92 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3183,13 +3023,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 138.43) (xy 154.94 138.43)
+			(xy 147.32 177.8) (xy 152.4 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "29cb1b36-1911-48a5-964f-f7aa029d9790")
+	)
+	(wire
+		(pts
+			(xy 130.81 41.91) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c774a6a-7a47-4308-ac83-2289ffce9495")
 	)
 	(wire
 		(pts
@@ -3203,7 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 154.94 121.92)
+			(xy 147.32 161.29) (xy 152.4 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3213,7 +3063,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 130.81) (xy 154.94 130.81)
+			(xy 147.32 170.18) (xy 152.4 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3233,17 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 29.21) (xy 186.69 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69f07783-f4ae-4810-a7d0-2496ff590313")
-	)
-	(wire
-		(pts
-			(xy 149.86 127) (xy 154.94 127)
+			(xy 147.32 166.37) (xy 152.4 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3253,7 +3093,47 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 119.38) (xy 154.94 119.38)
+			(xy 130.81 41.91) (xy 129.54 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75daad1a-d81f-4486-a69b-464baf897882")
+	)
+	(wire
+		(pts
+			(xy 120.65 57.15) (xy 120.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e59c68-c611-47ca-b789-f642d0daabc2")
+	)
+	(wire
+		(pts
+			(xy 120.65 62.23) (xy 121.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34b530c-215f-4b14-b0c0-b99225a462c9")
+	)
+	(wire
+		(pts
+			(xy 120.65 48.26) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade48bc2-4b64-430b-8655-07dc31af75d4")
+	)
+	(wire
+		(pts
+			(xy 147.32 158.75) (xy 152.4 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3263,17 +3143,37 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 83.82) (xy 266.7 83.82)
+			(xy 120.65 41.91) (xy 120.65 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b58ceb40-f1f7-4eb9-9fb4-1d030e060a9e")
+		(uuid "cb25be8a-5b29-49c9-a4ce-f3706cac456a")
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 154.94 114.3)
+			(xy 163.83 138.43) (xy 166.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2e3d94-1640-4613-b6a6-2ca710fe52bf")
+	)
+	(wire
+		(pts
+			(xy 102.87 160.02) (xy 105.41 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b04fb7-f4c9-4131-805b-a4a12f766da0")
+	)
+	(wire
+		(pts
+			(xy 147.32 153.67) (xy 152.4 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3283,7 +3183,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 160.02) (xy 114.3 160.02)
+			(xy 113.03 160.02) (xy 121.92 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3293,7 +3193,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 154.94 111.76)
+			(xy 120.65 57.15) (xy 121.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34c5e7b-a92f-4a10-811f-366c8e897c69")
+	)
+	(wire
+		(pts
+			(xy 147.32 151.13) (xy 152.4 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3320,6 +3230,36 @@
 			(type default)
 		)
 		(uuid "eb911887-c3d2-4185-94dd-1a757896c42a")
+	)
+	(wire
+		(pts
+			(xy 118.11 57.15) (xy 120.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b4a79e-d57e-48cc-bb01-59b477254288")
+	)
+	(wire
+		(pts
+			(xy 130.81 48.26) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67aea5f-3b36-4c8d-8f26-b1d3c3165701")
+	)
+	(wire
+		(pts
+			(xy 132.08 41.91) (xy 130.81 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa334c44-6448-4eaa-9924-42fdf66fbb59")
 	)
 	(image
 		(at 72.39 170.18)
@@ -4081,31 +4021,9 @@
 			"8vYAAAAASUVORK5CYII="
 		)
 	)
-	(global_label "USB VBUS"
-		(shape input)
-		(at 271.78 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c29b095-c3f0-4b26-870c-7c118de19f40")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.4414 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VMID"
 		(shape input)
-		(at 149.86 138.43 180)
+		(at 147.32 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4115,7 +4033,7 @@
 		)
 		(uuid "21a17e95-66e2-4f84-baaf-88e348cf69bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.46 138.43 0)
+			(at 139.92 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4045,7 @@
 	)
 	(global_label "USB D-"
 		(shape input)
-		(at 181.61 36.83 0)
+		(at 190.5 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4135,9 +4053,9 @@
 			)
 			(justify left)
 		)
-		(uuid "22b3010c-2005-43ac-818d-21b7e94b5531")
+		(uuid "245f1d0e-25c2-44d7-aa7f-94cb243e63d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.2152 36.83 0)
+			(at 201.1052 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,28 +4122,6 @@
 		(uuid "33b842b7-6adf-4441-8557-81a16a67149c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.1958 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TVSS"
-		(shape input)
-		(at 186.69 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34091eac-454a-4b37-8621-11f96f7e9566")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2296 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4199,7 @@
 	)
 	(global_label "TVDD_OUT"
 		(shape input)
-		(at 121.92 54.61 180)
+		(at 121.92 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4313,7 +4209,29 @@
 		)
 		(uuid "41da1408-d680-49b0-8635-a891698c1a64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.7424 54.61 0)
+			(at 109.7424 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB D-"
+		(shape input)
+		(at 139.7 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c2e0a5c-be8f-4f14-b074-a99ff74f2f94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.0948 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,31 +4263,9 @@
 			)
 		)
 	)
-	(global_label "USB VBUS"
-		(shape input)
-		(at 256.54 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e665475-2d43-4015-8e90-f83a5e3d3604")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.2014 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX2"
 		(shape input)
-		(at 149.86 133.35 180)
+		(at 147.32 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4379,7 +4275,7 @@
 		)
 		(uuid "50f6dc59-bd2b-4ad8-868c-f328a8999ae7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.4882 133.35 0)
+			(at 140.9482 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4309,7 @@
 	)
 	(global_label "ANT1"
 		(shape input)
-		(at 149.86 111.76 180)
+		(at 147.32 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4423,7 +4319,51 @@
 		)
 		(uuid "582f295d-f3a0-4a7f-9adb-61f9b8f31a23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2786 111.76 0)
+			(at 139.7386 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC"
+		(shape input)
+		(at 153.67 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64022141-4850-486f-a5b4-9970b2ac6676")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.1448 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB VBUS"
+		(shape input)
+		(at 139.7 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6afd0001-5a5f-42de-b97c-c9c09aa9c7b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.0386 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4375,7 @@
 	)
 	(global_label "ANT2"
 		(shape input)
-		(at 149.86 114.3 180)
+		(at 147.32 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4445,7 +4385,7 @@
 		)
 		(uuid "745592b0-4d6a-4270-a473-2e8e94f6b856")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2786 114.3 0)
+			(at 139.7386 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +4419,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 121.92 38.1 180)
+		(at 121.92 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4489,7 +4429,7 @@
 		)
 		(uuid "794279ee-0524-4a08-aadd-c42fc69e908e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.3062 38.1 0)
+			(at 115.3062 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4441,7 @@
 	)
 	(global_label "TX1"
 		(shape input)
-		(at 149.86 130.81 180)
+		(at 147.32 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4511,34 +4451,12 @@
 		)
 		(uuid "7e21d39d-2313-4d15-8afb-39c2795fde27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.4882 130.81 0)
+			(at 140.9482 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB VBUS"
-		(shape input)
-		(at 181.61 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ec74d2f-1d1e-47e3-bd4a-cb57c4ff1c89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.2714 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4565,9 +4483,9 @@
 			)
 		)
 	)
-	(global_label "PVDD_OUT"
+	(global_label "CC"
 		(shape input)
-		(at 121.92 46.99 180)
+		(at 139.7 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4575,9 +4493,9 @@
 			)
 			(justify right)
 		)
-		(uuid "89ab7817-1e4c-4350-976f-27de089fcb75")
+		(uuid "82de1e26-0bab-487a-b9ad-f972cacebe64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.44 46.99 0)
+			(at 134.1748 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,9 +4505,9 @@
 			)
 		)
 	)
-	(global_label "TVSS"
+	(global_label "PVDD_OUT"
 		(shape input)
-		(at 229.87 124.46 180)
+		(at 120.65 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4597,9 +4515,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8df7f7cf-9978-49fe-ae2f-e18dee8d56a0")
+		(uuid "89ab7817-1e4c-4350-976f-27de089fcb75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.4096 124.46 0)
+			(at 108.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4653,9 +4571,31 @@
 			)
 		)
 	)
+	(global_label "USB D+"
+		(shape input)
+		(at 139.7 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d9d018e-fc34-422e-baa1-f7e410d9e777")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.0948 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB VBUS"
 		(shape input)
-		(at 129.54 67.31 0)
+		(at 129.54 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4665,7 +4605,7 @@
 		)
 		(uuid "9f4d06b5-8a9d-42b7-b434-a9e3f6cde1e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2014 67.31 0)
+			(at 142.2014 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,28 +4637,6 @@
 			)
 		)
 	)
-	(global_label "USB D+"
-		(shape input)
-		(at 181.61 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a299797e-3777-4d79-92db-d4b26e8ed84c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.2152 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PVDD_OUT"
 		(shape input)
 		(at 256.54 73.66 0)
@@ -4737,28 +4655,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TVSS"
-		(shape input)
-		(at 149.86 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "abe670c1-cdaa-4f13-aaf1-663253a409f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.3996 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4807,9 +4703,53 @@
 			)
 		)
 	)
+	(global_label "USB VBUS"
+		(shape input)
+		(at 139.7 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8875cb7-2758-42da-9d0e-63c43ed61062")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.0386 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC"
+		(shape input)
+		(at 190.5 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0fad1ff-199c-4e7b-95ef-2a4576629159")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.0252 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST_N"
 		(shape input)
-		(at 119.38 67.31 180)
+		(at 119.38 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4819,12 +4759,34 @@
 		)
 		(uuid "c3790e56-18d3-4477-b646-157fb8cf0fb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.6496 67.31 0)
+			(at 110.6496 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB VBUS"
+		(shape input)
+		(at 190.5 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7e17a58-df16-427f-8d2e-2fba718768f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.1614 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4847,6 +4809,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB VBUS"
+		(shape input)
+		(at 190.5 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2c7f3e4-d4d6-48e2-aaee-7ade13b5d527")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.1614 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4939,6 +4923,28 @@
 			)
 		)
 	)
+	(global_label "USB VBUS"
+		(shape input)
+		(at 118.11 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb69c85d-2abf-4440-a5f0-39564fd7dd0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.4486 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RX1"
 		(shape input)
 		(at 229.87 114.3 180)
@@ -4957,6 +4963,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB D+"
+		(shape input)
+		(at 190.5 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1575733-a1c8-4dbc-b4da-94f8d89e72f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.1052 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB VBUS"
+		(shape input)
+		(at 256.54 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f27af6a7-0afc-4d1b-b92c-2711f98f6e0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.2014 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4985,7 +5035,7 @@
 	)
 	(global_label "RX2"
 		(shape input)
-		(at 149.86 121.92 180)
+		(at 147.32 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4995,7 +5045,7 @@
 		)
 		(uuid "f5f25e1c-c551-40e0-96ea-3d81430ba947")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1858 121.92 0)
+			(at 140.6458 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,9 +5055,31 @@
 			)
 		)
 	)
+	(global_label "USB VBUS"
+		(shape input)
+		(at 256.54 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "faf5513e-416b-4ca8-b9d2-f149348d76fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.2014 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RX1"
 		(shape input)
-		(at 149.86 119.38 180)
+		(at 147.32 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5017,7 +5089,7 @@
 		)
 		(uuid "ffcca124-9668-4450-83c3-046daa01390e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1858 119.38 0)
+			(at 140.6458 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,35 +5100,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 129.54 54.61 90)
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03678d4a-ee79-46af-9712-4b37bdd0c0d3")
-		(property "Reference" "#PWR06"
-			(at 135.89 54.61 0)
+		(uuid "02cee3ef-1a6e-4ca1-b55e-17bbfa70ddc1")
+		(property "Reference" "TH1"
+			(at 220.726 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 133.35 54.6099 90)
+		(property "Value" "~"
+			(at 223.266 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.54 54.61 0)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,7 +5134,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 54.61 0)
+			(at 226.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eb18307-f686-4e40-b163-2df30e4437bb")
+		)
+		(instances
+			(project ""
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 129.54 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03678d4a-ee79-46af-9712-4b37bdd0c0d3")
+		(property "Reference" "#PWR06"
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 133.35 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +5210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 129.54 54.61 0)
+			(at 129.54 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,173 +5231,34 @@
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05d88d52-f5af-4620-be4c-14fa6c8b75dd")
-		(property "Reference" "ThroughHole8"
-			(at 221.742 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 46.9901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef52828c-cf8d-4dfd-9286-16cc5c0623cd")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "097589cf-86c5-4e7d-a344-b365d72d9562")
-		(property "Reference" "ThroughHole11"
-			(at 221.742 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 92.7101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8be61f5-b8e2-4dfd-a2d2-f28e8395c984")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 125.73 38.1 90)
+		(at 125.73 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b97ec66-05c9-488a-b41e-860c51e6298f")
-		(property "Reference" "C22"
-			(at 124.4599 34.29 0)
+		(uuid "06bc1552-e22b-4527-91bf-e558163b8cb6")
+		(property "Reference" "C12"
+			(at 130.81 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "C"
-			(at 126.9999 34.29 0)
+		(property "Value" "4.7 uF"
+			(at 133.604 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 129.54 37.1348 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 56.1848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +5267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 38.1 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +5276,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 38.1 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,51 +5285,48 @@
 			)
 		)
 		(pin "2"
-			(uuid "0c9a7c54-0dc9-4d63-a1f9-18f9c7ec2db5")
+			(uuid "97138552-8687-4b32-8b69-e4b8b8de4c7f")
 		)
 		(pin "1"
-			(uuid "dc9b8052-4e21-4177-b9c5-d9cee987a14b")
+			(uuid "0c91a4d9-3a03-49ce-9922-2160a9bb9e55")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "C22")
+					(reference "C12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 76.2 180)
+		(lib_id "power:GNDD")
+		(at 243.84 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f7e1875-9db5-4e7e-b308-c394bfb608d6")
-		(property "Reference" "ThroughHole19"
-			(at 221.742 76.2 0)
+		(uuid "06e6dcdf-32ae-4928-873c-532f8a6aedbf")
+		(property "Reference" "#PWR04"
+			(at 243.84 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 74.9301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 76.2 0)
+		(property "Value" "GNDD"
+			(at 244.348 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 76.2 0)
+			(at 243.84 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,8 +5343,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 226.06 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 243.84 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,48 +5353,174 @@
 			)
 		)
 		(pin "1"
-			(uuid "11df27cc-72dd-4f19-bf1a-c9073417d6fc")
+			(uuid "9668b471-0357-47dc-bab2-eda060f50fbd")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole19")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 260.35 114.3 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 158.75 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "120417cc-2738-4727-aa8d-3a36bb712302")
+		(property "Reference" "H2"
+			(at 157.48 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 157.48 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62f8c296-3e40-4c0f-8ec9-b64813226e29")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 175.26 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15c57e47-a083-44e3-b3e2-3dddfce8a0dd")
+		(property "Reference" "H8"
+			(at 177.8 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 177.8 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Connector:MountingHole_60mil"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 260.35 119.38 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1297ead0-7016-4c8a-82ce-b3631bb37312")
-		(property "Reference" "ThroughHole17"
-			(at 264.668 114.3 0)
+		(uuid "1c7a2b7e-8daa-4d23-8077-539037aef965")
+		(property "Reference" "TH16"
+			(at 265.684 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 262.89 115.5699 0)
+			(at 263.144 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Custom_Connector:TH22"
-			(at 260.35 114.3 0)
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 114.3 0)
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 114.3 0)
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,12 +5547,208 @@
 			)
 		)
 		(pin "1"
-			(uuid "1436274e-606c-4984-a829-da2f5b648f13")
+			(uuid "15dccd48-11dd-4694-9f97-cdd7d7667b6d")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole17")
+					(reference "TH16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 260.35 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ee038f6-e7c6-4707-9603-7bb83a01eb6e")
+		(property "Reference" "TH14"
+			(at 265.684 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 263.144 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 260.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c65128df-d502-4142-aa4f-186119d140da")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fbc8a14-8f1c-4107-8a11-25599bd38acd")
+		(property "Reference" "TH4"
+			(at 220.726 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.266 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9764c01-d18e-4334-a744-f0cd2b5dbab7")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 147.32 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21bc4b07-4cca-4a6d-82ed-fc2cd5b0ef06")
+		(property "Reference" "#PWR08"
+			(at 140.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 143.51 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 147.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18a1a1b6-ac1f-4fcc-bd90-401f20fb026a")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5464,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.414 108.204 90)
 			(effects
 				(font
@@ -5507,8 +5823,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 125.73 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2465f311-10c1-4573-aa86-7f72bb2b92c9")
+		(property "Reference" "C4"
+			(at 128.27 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 129.54 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 121.92 63.1952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e16449e-9a0b-488b-88c3-56d93a35bf8e")
+		)
+		(pin "1"
+			(uuid "b7d81455-93c1-46d9-bfb8-518a8b307336")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
-		(at 129.54 38.1 90)
+		(at 129.54 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5517,7 +5900,7 @@
 		(fields_autoplaced yes)
 		(uuid "3157a831-1756-4557-8b7c-160e665ea3a2")
 		(property "Reference" "#PWR018"
-			(at 135.89 38.1 0)
+			(at 135.89 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +5909,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 133.35 38.0999 90)
+			(at 133.35 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 38.1 0)
+			(at 129.54 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 38.1 0)
+			(at 129.54 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +5936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 129.54 38.1 0)
+			(at 129.54 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,488 +5957,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 266.7 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35a6a494-77fc-4d73-b9dc-08a8d3f060da")
-		(property "Reference" "#PWR013"
-			(at 266.7 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05933977-9c53-4e4e-8745-85a88d41702f")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38580c6a-c3c8-4dfb-85f4-215c9be4ee9e")
-		(property "Reference" "ThroughHole22"
-			(at 221.742 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 52.0701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "926f2af1-c1c8-4d64-b078-19b8fe7e4721")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3966112f-b8ef-4d67-b271-39319af21a6c")
-		(property "Reference" "ThroughHole9"
-			(at 221.742 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 87.6301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcf7ddc0-a91e-47d6-99c6-2fa0fda4405e")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bd33c5c-8aca-4866-9ba3-93a87b1f5dda")
-		(property "Reference" "ThroughHole5"
-			(at 221.742 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 100.3301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70f6f042-4e2a-4d3e-9eeb-f0e0460fb781")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4922a6c0-3e3c-4af5-b711-649aa9ee5c7a")
-		(property "Reference" "ThroughHole1"
-			(at 221.742 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 107.9501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16bc69c1-c808-4a00-813c-a2e4728d8170")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d35fa80-fa42-49ed-b77e-0993f71ebc30")
-		(property "Reference" "#PWR012"
-			(at 158.75 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f63c599-6c09-4c3f-81d0-1aa1fa757a3e")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 256.54 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4df4c7ed-51cf-429e-8582-d8858576a9fe")
-		(property "Reference" "#PWR010"
-			(at 262.89 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 260.35 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32017a25-b93e-495a-8d69-c32676bd0d5d")
-		)
-		(instances
-			(project ""
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
-		(at 129.54 46.99 90)
+		(at 196.85 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eb2e752-cbc6-4edb-a3f5-2e7657116881")
-		(property "Reference" "#PWR016"
-			(at 135.89 46.99 0)
+		(uuid "36f0ac64-8b19-4c3b-af99-15fc09004bee")
+		(property "Reference" "#PWR024"
+			(at 203.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,16 +5975,15 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 133.35 46.9899 90)
+			(at 202.946 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 46.99 0)
+			(at 196.85 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +5992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 46.99 0)
+			(at 196.85 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6001,270 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 129.54 46.99 0)
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9757689c-bf67-41a7-a643-5d534869f73f")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 175.26 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40c3d5b4-15c6-4d69-b91b-5ddb12b69731")
+		(property "Reference" "H7"
+			(at 177.8 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 177.8 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Connector:MountingHole_60mil"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cd6d4a1-85fe-46dc-b43f-d02359bf74b5")
+		(property "Reference" "C5"
+			(at 108.966 153.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 pF"
+			(at 109.22 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 105.41 160.9852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd9a7105-c068-4060-8d92-19f938cd4193")
+		)
+		(pin "1"
+			(uuid "98f85be9-87ff-4405-bec4-eed93ca7b899")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 260.35 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d86265d-ba33-4258-8e59-7df0290188b9")
+		(property "Reference" "TH18"
+			(at 265.684 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 263.144 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 260.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09e2b9fb-0f28-4bf3-b013-71428153192c")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 132.08 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eb2e752-cbc6-4edb-a3f5-2e7657116881")
+		(property "Reference" "#PWR016"
+			(at 138.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 135.89 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 132.08 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,36 +6285,35 @@
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 111.76 180)
+		(lib_id "power:GNDD")
+		(at 139.7 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "583bd258-e141-4755-9ab5-341335b6643d")
-		(property "Reference" "ThroughHole20"
-			(at 221.742 111.76 0)
+		(fields_autoplaced yes)
+		(uuid "51145cfa-0994-49c5-a436-47e17f69c40b")
+		(property "Reference" "#PWR014"
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 110.4901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 111.76 0)
+		(property "Value" "GNDD"
+			(at 135.89 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 111.76 0)
+			(at 139.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,8 +6330,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 226.06 111.76 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 139.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,12 +6340,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "89a680e3-91b2-477c-a678-7c59336c3408")
+			(uuid "0eee2e3e-5f8a-4be7-b997-b02515690d56")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole20")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6181,34 +6353,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 46.99 90)
+		(at 125.73 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5952bb36-78bb-4fc9-87b8-ebf01e7e7b61")
-		(property "Reference" "C24"
-			(at 124.4599 43.18 0)
+		(property "Reference" "C16"
+			(at 127 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "C"
-			(at 126.9999 43.18 0)
+		(property "Value" "470 nF"
+			(at 127 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 129.54 46.0248 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 40.9448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6388,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 46.99 0)
+			(at 125.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +6397,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 46.99 0)
+			(at 125.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,364 +6414,24 @@
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "C24")
+					(reference "C16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a7fd1b9-6d4a-4810-806d-c37689c5119e")
-		(property "Reference" "ThroughHole24"
-			(at 221.742 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 44.4501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c05905f-6a5f-43d9-a923-676f9cab51e3")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 260.35 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6052e941-fda9-4e9d-8640-eeabc66869b2")
-		(property "Reference" "ThroughHole14"
-			(at 264.668 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 262.89 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 260.35 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22bb6710-a256-41f4-8921-f5a0b42dafd3")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7026ff24-3ac1-48ef-b336-a243efb81cd2")
-		(property "Reference" "ThroughHole21"
-			(at 221.742 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 49.5301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6d5a0e9-407e-4474-9417-239654d4700c")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "750333eb-8de4-446d-b27c-79a0bd345e01")
-		(property "Reference" "ThroughHole26"
-			(at 221.742 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 80.0101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ff9a12a-8d33-47ff-b7c3-c36f141a27f6")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77a17e33-c987-42a2-b9c9-d88c58bd3d4a")
-		(property "Reference" "ThroughHole23"
-			(at 221.742 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 54.6101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84f2efef-14a1-4a2f-9c10-0d8426d98e91")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 166.37 90.17 0)
+		(lib_id "power:GNDD")
+		(at 102.87 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "78419459-10ff-4f66-98ed-6bf5759d45bb")
-		(property "Reference" "#PWR08"
-			(at 166.37 96.52 0)
+		(uuid "59d6303f-8f5f-430c-8174-d5cfa6bbb9a1")
+		(property "Reference" "#PWR02"
+			(at 96.52 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,16 +6439,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 166.37 95.25 0)
+		(property "Value" "GNDD"
+			(at 99.06 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 90.17 0)
+			(at 102.87 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,7 +6458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 90.17 0)
+			(at 102.87 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,207 +6466,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ba6e876-3dce-40dd-a8be-e0f53333b0cf")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Plug")
-		(at 166.37 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "836ecb2e-aabb-4fe9-b18a-046109ac60a5")
-		(property "Reference" "P1"
-			(at 166.37 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Plug"
-			(at 166.37 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_JAE_DX07P024AJ1"
-			(at 170.18 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 170.18 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Type-C Plug connector"
-			(at 166.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A6"
-			(uuid "681315e6-1585-49e6-8225-2813fec7fd28")
-		)
-		(pin "S1"
-			(uuid "a6cac71b-880f-4f1c-b32c-d342d6d25648")
-		)
-		(pin "A1"
-			(uuid "2de2b622-75ed-48b8-97cb-fc4790fe8f84")
-		)
-		(pin "A12"
-			(uuid "b613f775-792e-4d14-b39e-eb9b115b4c23")
-		)
-		(pin "B1"
-			(uuid "ce03ca82-0d2a-45f8-8313-6f97a917b95f")
-		)
-		(pin "B12"
-			(uuid "a7ead06e-6469-49d8-9eb2-9ca9c5421125")
-		)
-		(pin "A4"
-			(uuid "e305e568-98e1-4d75-bf3f-9c8ddb9f0799")
-		)
-		(pin "A9"
-			(uuid "4f3da448-d271-4349-9239-c7f49f86fc0b")
-		)
-		(pin "B4"
-			(uuid "00654e42-a1d6-420a-9b32-6c3f1a6c9dfd")
-		)
-		(pin "B9"
-			(uuid "2448b59a-e571-429f-8edb-7f39c1d697e1")
-		)
-		(pin "A5"
-			(uuid "ef8c401c-0dc4-4dfd-830d-c57630f6dfa2")
-		)
-		(pin "B5"
-			(uuid "ecd0f808-1fe5-43c9-8c06-cedd512562c0")
-		)
-		(pin "A7"
-			(uuid "e80b2a6e-68ce-45b7-ad35-ab50e67c702d")
-		)
-		(pin "B10"
-			(uuid "fbc14196-6873-4bd0-9fdc-228f41fd684a")
-		)
-		(pin "A10"
-			(uuid "744b9754-e9d8-478b-9786-a27936c8c362")
-		)
-		(pin "B11"
-			(uuid "6c7debd7-d0fd-4d1d-b51f-07cd54195ef8")
-		)
-		(pin "A11"
-			(uuid "b4e376f3-42ee-4ff9-ba0a-5573b5111dca")
-		)
-		(pin "B8"
-			(uuid "8ab181a4-95da-4e78-93de-45df9a83f858")
-		)
-		(pin "A3"
-			(uuid "21a74179-b433-413b-be90-933edc2c39e6")
-		)
-		(pin "A8"
-			(uuid "722723b8-452f-4c67-a8fe-e2b811246d9a")
-		)
-		(pin "A2"
-			(uuid "972600ea-5659-48f5-b046-2c7d448f75b8")
-		)
-		(pin "B3"
-			(uuid "2f496390-c3c7-4283-ae38-5fa00ade6516")
-		)
-		(pin "B2"
-			(uuid "a5484f77-4efd-4fbc-b9b2-f405e4f5c302")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "853c9863-52c9-47c7-9699-ef9d8040bfa6")
-		(property "Reference" "ThroughHole10"
-			(at 221.742 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 90.1701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 91.44 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 102.87 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,12 +6476,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf052840-e5ab-4d03-a7d0-42377d44b888")
+			(uuid "851069ed-97d7-4e6f-a2c8-8815cc554c17")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole10")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6856,31 +6489,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 175.26 270)
+		(at 125.73 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "86dc57ba-0f60-4d8b-8c32-b8e3a92edc4a")
+		(uuid "5bfc729e-d9fb-4c9a-a215-e428bd655482")
 		(property "Reference" "C2"
-			(at 118.11 179.578 90)
+			(at 124.46 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10 pF"
-			(at 118.364 181.864 90)
+		(property "Value" "100 nF"
+			(at 127 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 114.3 176.2252 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 26.9748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +6524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 175.26 0)
+			(at 125.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +6533,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 175.26 0)
+			(at 125.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,10 +6542,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6f8122b5-5fce-4721-b20e-9440e51f3426")
+			(uuid "b546e214-22fd-4ee6-bc3c-3d606ebb64e7")
 		)
 		(pin "1"
-			(uuid "f717641d-6eea-4c79-8c75-a5cd09295d8a")
+			(uuid "b6feddc6-552d-4e21-81a3-0e9d48df2065")
 		)
 		(instances
 			(project "RFID_Reader"
@@ -6922,17 +6557,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 125.73 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f67b23a-f486-4198-8e6a-e78e710725b0")
+		(property "Reference" "C17"
+			(at 131.064 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470 nF"
+			(at 134.366 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 47.2948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "235d4f12-1846-40d1-822f-5b8f49f0d40e")
+		)
+		(pin "1"
+			(uuid "b59535ad-079c-4bb8-9368-3be47fcddab9")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
-		(at 113.03 160.02 270)
+		(at 161.29 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ac42400-9276-4d0d-822b-c787bde39fbe")
-		(property "Reference" "#PWR01"
-			(at 106.68 160.02 0)
+		(uuid "60c4a4f2-ce05-46d2-85e4-f9393c6f3ba1")
+		(property "Reference" "#PWR07"
+			(at 167.64 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +6645,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 109.22 160.0199 90)
+			(at 165.1 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +6654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 160.02 0)
+			(at 161.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +6663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 160.02 0)
+			(at 161.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,7 +6672,601 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 113.03 160.02 0)
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3f63b87-66d2-4b67-ab1d-de13c67b5fa4")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 190.5 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "618850ed-f03b-4cd4-befb-ae3477b921b6")
+		(property "Reference" "#PWR019"
+			(at 196.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 194.31 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8229654-ae16-4686-a75b-dc382ee8c8da")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 161.29 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a41cd1c-bca5-4ad2-9489-798e32383e61")
+		(property "Reference" "#PWR05"
+			(at 167.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 165.1 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ba62e31-edce-4902-bdba-f3835ddc0e22")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 160.02 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74cbdb95-877b-4aff-b9bf-7ad68bccbfe0")
+		(property "Reference" "R2"
+			(at 165.1 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1 kOhm"
+			(at 165.1 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 160.274 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bca73bf0-7397-4244-a0eb-e2930ef65c6b")
+		)
+		(pin "1"
+			(uuid "93559c99-4d50-4ece-a57e-32eca41f40cf")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 229.87 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76884e82-54e5-415c-b5a9-50d68f4db6cb")
+		(property "Reference" "#PWR03"
+			(at 223.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 226.06 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 229.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bfb2cbf-7e2b-4c3b-9f06-e3cb32dd042d")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f6021ca-7028-441b-beb4-905fcd164181")
+		(property "Reference" "TH13"
+			(at 220.726 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.266 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5912b76-c553-4b8b-a836-7d31b4e94a51")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 190.5 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f6dcccf-f223-4df4-ae72-ac1521f96ed2")
+		(property "Reference" "#PWR017"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 194.31 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbdad87f-9ce5-497c-80ac-53ef1eacc585")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 48.26 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82af14b2-f1c9-40af-a665-25fbb9dced98")
+		(property "Reference" "TH12"
+			(at 220.726 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.266 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff095898-12b4-4452-b712-c11d241c11a9")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88c3809a-2135-4862-9db6-0c0160764ab8")
+		(property "Reference" "TH8"
+			(at 220.726 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.266 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f1ef5e3-c80f-41b3-be71-86608e063ebf")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 102.87 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac42400-9276-4d0d-822b-c787bde39fbe")
+		(property "Reference" "#PWR01"
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 99.06 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 102.87 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,100 +7287,32 @@
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 260.35 119.38 0)
+		(lib_id "Device:C")
+		(at 109.22 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9263bb34-9aee-4f8e-9a42-dddb7050b2b4")
-		(property "Reference" "ThroughHole15"
-			(at 264.668 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 262.89 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 260.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b3c9a18-a292-40ab-9758-efb3c598db04")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 190.5 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d579123-da5b-40a0-a51e-2b3e2eb4585a")
-		(property "Reference" "R5"
-			(at 195.58 30.988 90)
+		(uuid "8b65c3bf-2466-461e-9cb6-6a6206ae0329")
+		(property "Reference" "C1"
+			(at 109.22 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.1 kOhm"
-			(at 195.58 33.02 90)
+		(property "Value" "10 pF"
+			(at 109.474 181.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 190.754 28.194 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 105.41 176.2252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7091,7 +7321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 29.21 0)
+			(at 109.22 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,8 +7329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 190.5 29.21 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,60 +7339,48 @@
 			)
 		)
 		(pin "2"
-			(uuid "1a1a3147-8c22-475d-b149-f7d3d7143eb3")
+			(uuid "717e6e0a-c15d-40e8-93ae-88d2f6fb88fc")
 		)
 		(pin "1"
-			(uuid "5da4356b-5182-4a70-9fe3-29a23a6f12db")
+			(uuid "759da610-4c8a-435d-b9b2-61f65ddbc59a")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "R5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 86.36 180)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 158.75 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "a28c4fb3-6d99-4121-9548-15318dff93ef")
-		(property "Reference" "ThroughHole7"
-			(at 221.742 86.36 0)
+		(fields_autoplaced yes)
+		(uuid "8fbd0dfe-ec6c-4713-b947-6b0c4667be35")
+		(property "Reference" "H1"
+			(at 157.48 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 223.52 85.0901 0)
+		(property "Value" "MountingHole_Pad"
+			(at 157.48 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 86.36 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 158.75 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,8 +7388,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 226.06 86.36 0)
+		(property "Datasheet" "~"
+			(at 158.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 158.75 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,12 +7407,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4d60ecf-a5c2-4bc2-937d-c91b62e5ebb7")
+			(uuid "d2e4f876-1504-4346-a2eb-8cb754132e39")
 		)
 		(instances
-			(project "RFID_Reader"
+			(project ""
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole7")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7193,16 +7420,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 113.03 175.26 270)
+		(at 129.54 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c03da605-e8c5-42c0-af95-e22fd24b67b7")
-		(property "Reference" "#PWR02"
-			(at 106.68 175.26 0)
+		(uuid "9060666e-4a67-48c4-8e21-2a855ae202f3")
+		(property "Reference" "#PWR013"
+			(at 135.89 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,7 +7438,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 109.22 175.2599 90)
+			(at 133.35 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 175.26 0)
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7229,7 +7456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 175.26 0)
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +7465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 113.03 175.26 0)
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,48 +7474,44 @@
 			)
 		)
 		(pin "1"
-			(uuid "68944569-c0d0-4002-913c-7b58c091a9be")
+			(uuid "53051f25-d09e-41d3-9f3f-9ddfcd9baa93")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "#PWR02")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 99.06 180)
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c1cdb3a0-1f60-42e0-8be5-ddf018f7b646")
-		(property "Reference" "ThroughHole4"
-			(at 221.742 99.06 0)
+		(uuid "91a7eb6d-8c26-4ad4-8348-43774826380c")
+		(property "Reference" "TH10"
+			(at 220.726 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 223.52 97.7901 0)
+			(at 223.266 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 99.06 0)
+			(at 226.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +7520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 99.06 0)
+			(at 226.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,7 +7529,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 99.06 0)
+			(at 226.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,48 +7538,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "ddfa23e4-a952-4406-aaf5-5afc11fa88fe")
+			(uuid "90739cc4-1238-4ddd-9ae7-3e572ce85f8e")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole4")
+					(reference "TH10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 83.82 180)
+		(lib_id "power:GNDD")
+		(at 161.29 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c3ef742a-1fc7-4a7b-9c5f-e3fe307cd116")
-		(property "Reference" "ThroughHole6"
-			(at 221.742 83.82 0)
+		(fields_autoplaced yes)
+		(uuid "9279b27e-ebc1-4da2-903a-fca55e1f4808")
+		(property "Reference" "#PWR022"
+			(at 167.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 82.5501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 83.82 0)
+		(property "Value" "GNDD"
+			(at 165.1 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,7 +7587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 83.82 0)
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,8 +7595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 226.06 83.82 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,12 +7605,863 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2215c5b-2b30-4bb4-a841-a54d3e5f8d36")
+			(uuid "2d768566-f7a7-4147-9794-aad5bc3832dc")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole6")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 55.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95894389-5a07-4fa7-b45b-4e957664cbe1")
+		(property "Reference" "TH9"
+			(at 220.726 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.266 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f25e2a49-4c1a-476d-9596-5db3e18681ad")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 139.7 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff9df6b-c5ad-440d-9edf-0dc160d39f53")
+		(property "Reference" "#PWR012"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 135.89 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f68ea1b5-4ea6-4b7b-891f-b47afd6685ce")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 260.35 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9ed611e-1625-4e88-80dd-52f4f964e1a9")
+		(property "Reference" "TH17"
+			(at 265.684 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 263.144 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 260.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d41dbb49-bdfb-4de5-8655-0d2c4b689be6")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 175.26 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab3ccd53-4b1f-408e-91fc-8674432931b8")
+		(property "Reference" "H6"
+			(at 177.8 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 177.8 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Connector:MountingHole_60mil"
+			(at 175.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 175.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac0ba669-feba-4c6b-88e6-d9d94e134d20")
+		(property "Reference" "TH11"
+			(at 220.726 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.266 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d85c8bc2-df7e-4887-9bda-bbbf5a00b2cd")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad81b6db-a9e9-41a9-81fc-c72422479d1b")
+		(property "Reference" "TH5"
+			(at 220.726 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.266 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46c07b1e-d220-489c-9e01-3a59adc28532")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 175.26 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b31da6c8-e2a1-4a06-9bc9-6cdf1544cae0")
+		(property "Reference" "H5"
+			(at 177.8 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 177.8 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Connector:MountingHole_60mil"
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b380be03-7bef-4599-86b5-8c2feb9adcee")
+		(property "Reference" "TH7"
+			(at 220.726 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.266 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c22271e3-dd13-4ce3-a855-25f18b1ccf00")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-03-16_18-54-40:2171830001")
+		(at 139.7 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc3247aa-e65c-4fd6-818d-38b10c5bb87c")
+		(property "Reference" "J1"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "2171830001"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CONN_2171830001_MOL"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2171830001?display=pdf"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A6"
+			(uuid "db1e4174-9dff-4bb3-a9b7-f2340ab791f7")
+		)
+		(pin "A3"
+			(uuid "33a3fee1-e346-495f-bd79-d9cf9bc0d979")
+		)
+		(pin "A1"
+			(uuid "3943a09c-6bfa-491d-8c83-f20a358f3be7")
+		)
+		(pin "A4"
+			(uuid "5ddefd45-e87b-4eb8-943d-5de529e02dea")
+		)
+		(pin "A2"
+			(uuid "51bf4763-0471-461f-a5ef-3c4e4769cc94")
+		)
+		(pin "A5"
+			(uuid "7a412728-128f-4cc6-b0e8-b4781931bc8c")
+		)
+		(pin "B1"
+			(uuid "d5a93212-29e3-4f96-ab82-ffc3701bc741")
+		)
+		(pin "B6"
+			(uuid "0c67ad39-9fe7-40ca-b061-074e0a1ff17d")
+		)
+		(pin "B9"
+			(uuid "c67faf26-e52a-435a-bb5b-fb55571e1d6a")
+		)
+		(pin "B7"
+			(uuid "bc19ce75-57a6-4a95-b627-0a1717496d88")
+		)
+		(pin "A10"
+			(uuid "138bda8f-17a7-4bbb-a210-0f0beff19151")
+		)
+		(pin "B5"
+			(uuid "8b8af37d-2c9c-4634-85e2-144eed6d96ef")
+		)
+		(pin "B4"
+			(uuid "f1c262a5-7f64-4cae-abfc-b30018ccac66")
+		)
+		(pin "A7"
+			(uuid "ef2baf71-02ce-43c4-a708-3fe03169cd30")
+		)
+		(pin "A12"
+			(uuid "1159c419-ba35-491f-9060-e87c15234f91")
+		)
+		(pin "B12"
+			(uuid "96255243-957e-4e27-bd95-0391e6e31e7f")
+		)
+		(pin "A9"
+			(uuid "640bb33e-47c2-46e7-911c-fd3acbb58ab9")
+		)
+		(pin "A11"
+			(uuid "9ee2af0f-ce07-494c-a344-eaa754dbd251")
+		)
+		(pin "B11"
+			(uuid "e256f0ee-2e87-43d7-b4d7-24d36137ca17")
+		)
+		(pin "B10"
+			(uuid "25f10491-d93a-4b7f-b284-2b3a31a61c65")
+		)
+		(pin "B8"
+			(uuid "e2a61cef-2f4e-4b0e-8343-4d6b5df6442f")
+		)
+		(pin "B2"
+			(uuid "9e3efe83-6f01-4c16-9ddb-68648aa73233")
+		)
+		(pin "B3"
+			(uuid "bee7b709-4b44-477c-985a-cc346cec6edf")
+		)
+		(pin "A8"
+			(uuid "ae663eef-9aea-4204-91f6-4b56786b1df7")
+		)
+		(instances
+			(project ""
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 158.75 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c500936f-5cd1-43bf-bd13-9e1ae5798830")
+		(property "Reference" "H3"
+			(at 157.48 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 157.48 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcc6a819-f2a9-469f-ae23-9cd2ad8737be")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 256.54 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9d69d91-8341-4ba2-8cf2-560f83e5af05")
+		(property "Reference" "#PWR011"
+			(at 262.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 260.35 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 256.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88d227cd-a130-43dc-87bb-b2bc887143e1")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 161.29 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf0b69b6-b695-407c-bec8-f566c48b9419")
+		(property "Reference" "#PWR021"
+			(at 167.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 165.1 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 161.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41b9ddbf-64d5-47a7-9b98-bee55ca59388")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7402,10 +8475,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4381693-4ddc-4f6b-a888-94f03f5d3518")
 		(property "Reference" "PN1"
-			(at 243.205 39.37 0)
+			(at 236.474 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,6 +8711,9 @@
 		(pin "64"
 			(uuid "75774f8e-40df-4abf-9f9e-42b3eb6878f9")
 		)
+		(pin "65"
+			(uuid "b07b861e-f289-470c-9f7c-274858c39584")
+		)
 		(instances
 			(project ""
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
@@ -7650,169 +8725,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 160.02 270)
+		(at 125.73 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d6347a1a-f5f1-4bf6-adc1-9af6a466312d")
-		(property "Reference" "C1"
-			(at 117.856 153.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10 pF"
-			(at 118.11 155.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 114.3 160.9852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9dcc2de7-f2b7-4e68-b215-757e19d58f90")
-		)
-		(pin "1"
-			(uuid "0c7d4692-cd30-4d45-b5b0-3ba72c67c486")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6957506-6b6b-43d4-ba90-da9487983361")
-		(property "Reference" "ThroughHole25"
-			(at 221.742 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 77.4701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a6380bf-8e7a-481f-893d-b31ccd53bee8")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 125.73 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dba5fc55-0887-468a-8456-ed29e8980e7e")
-		(property "Reference" "C8"
-			(at 124.4599 50.8 0)
+		(property "Reference" "C10"
+			(at 127.254 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "C"
-			(at 126.9999 50.8 0)
+		(property "Value" "4.7 uF"
+			(at 127.254 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 129.54 53.6448 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 70.1548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +8760,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 54.61 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,7 +8769,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 54.61 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,43 +8786,39 @@
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 106.68 180)
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dec13ca4-ef8f-4f7f-9b4e-27185e71cf6b")
-		(property "Reference" "ThroughHole3"
-			(at 221.742 106.68 0)
+		(uuid "dbdfad71-ac0b-4330-a8e0-04df9697c4c4")
+		(property "Reference" "TH6"
+			(at 220.726 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 223.52 105.4101 0)
+			(at 223.266 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 106.68 0)
+			(at 226.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,7 +8827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 106.68 0)
+			(at 226.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,7 +8836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 106.68 0)
+			(at 226.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,29 +8845,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb3d1511-1ba3-4245-8189-5946967a1d53")
+			(uuid "e5be8dfa-3443-483c-8e61-34a5ba90e651")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole3")
+					(reference "TH6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 196.85 29.21 90)
+		(lib_id "Custom_Connectors:TH")
+		(at 260.35 121.92 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eabb8718-c172-4b01-9a49-dd41ab83ed2c")
-		(property "Reference" "#PWR09"
-			(at 203.2 29.21 0)
+		(uuid "e0b83608-62b4-4227-a148-cfb3a4a77ebf")
+		(property "Reference" "TH15"
+			(at 265.684 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 263.144 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 260.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,8 +8891,57 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 200.66 29.2099 90)
+		(property "Datasheet" ""
+			(at 260.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4810940-d950-4d83-996e-4295f7dee2cd")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 256.54 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0e35ada-f4be-4d19-bbbd-5ffa4af7c75a")
+		(property "Reference" "#PWR010"
+			(at 262.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 260.35 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +8950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 29.21 0)
+			(at 256.54 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +8959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 29.21 0)
+			(at 256.54 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7967,76 +8967,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ac94625-f118-48a9-b75c-242c55841ba0")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebfdc50d-84e9-48e1-a7bf-a5c2c9d2e792")
-		(property "Reference" "ThroughHole18"
-			(at 221.742 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 72.3901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 256.54 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8045,165 +8977,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd2004f6-ed4c-40ae-b4af-a88f1fb41782")
+			(uuid "b62a8949-a0e3-43f9-bb31-ba4b513d8417")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole18")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec78fbd1-859a-44da-bf16-aa59c763c281")
-		(property "Reference" "ThroughHole12"
-			(at 221.742 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 95.2501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08baec79-9b95-4b24-abad-ff74981f7a84")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 226.06 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed0942b4-8dfe-4a77-92c4-16c4c07668fc")
-		(property "Reference" "ThroughHole2"
-			(at 221.742 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 223.52 102.8701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 226.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed14bb09-7153-43b7-aad6-30259e5b13ee")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 256.54 99.06 90)
+		(lib_id "power:GNDD")
+		(at 166.37 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ef339e9c-656d-4389-b11d-8eb89e934e65")
-		(property "Reference" "#PWR011"
-			(at 262.89 99.06 0)
+		(uuid "e1fc58a2-8a91-40f4-9025-2d55212d19da")
+		(property "Reference" "#PWR020"
+			(at 172.72 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,8 +9007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 260.35 99.0599 90)
+		(property "Value" "GNDD"
+			(at 170.18 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8221,7 +9017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 99.06 0)
+			(at 166.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8230,7 +9026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 99.06 0)
+			(at 166.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,8 +9034,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 166.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,12 +9044,270 @@
 			)
 		)
 		(pin "1"
-			(uuid "81fb73e8-122b-4df3-9a37-92a8b2af2fe8")
+			(uuid "b0abf9dd-4c15-4b46-8aa7-a0f513ea9e28")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "#PWR011")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 196.85 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e690909f-db4a-47a7-9813-63c51ef0b823")
+		(property "Reference" "#PWR023"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 202.946 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 196.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d93a63f-0b48-4818-829d-818babcd70d4")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 193.04 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8c6beb0-cdaf-4e19-ad55-6728390f6191")
+		(property "Reference" "TH20"
+			(at 187.706 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.246 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e9691b0-46b4-443a-b5a1-578300323744")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecce352e-71b6-4f3e-9a61-d8d0a452f91d")
+		(property "Reference" "TH3"
+			(at 220.726 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.266 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a771851-4fae-4f16-974a-8d6c783f70db")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Connectors:TH")
+		(at 226.06 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efcbb69b-5ebf-4e5b-b2fa-7b24dbab9810")
+		(property "Reference" "TH2"
+			(at 220.726 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 223.266 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connector:TH22"
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7941746e-923c-4945-b4c7-f7f74496ce2a")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "TH2")
 					(unit 1)
 				)
 			)
@@ -8261,7 +9315,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 124.46 67.31 0)
+		(at 124.46 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8270,7 +9324,7 @@
 		(fields_autoplaced yes)
 		(uuid "f029a333-74f9-4c98-9a40-772a209dcbfa")
 		(property "Reference" "SW1"
-			(at 124.46 59.69 0)
+			(at 124.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,15 +9332,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 124.46 62.23 0)
+			(at 124.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
-			(at 124.46 62.23 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 124.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,7 +9349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 62.23 0)
+			(at 124.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +9358,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 124.46 67.31 0)
+			(at 124.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8328,173 +9382,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 266.7 87.63 0)
+		(lib_id "Custom_Connectors:TH")
+		(at 193.04 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f24e15a5-00b7-4482-9d90-36261964c61d")
-		(property "Reference" "C21"
-			(at 270.51 86.3599 0)
+		(uuid "f7d50a66-d917-4503-997f-e0571f9fc5bf")
+		(property "Reference" "TH19"
+			(at 187.706 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 270.51 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 267.6652 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 266.7 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9534adf3-7b90-4e60-b61c-0574245f500a")
-		)
-		(pin "1"
-			(uuid "3f657051-99ae-46cd-a8a9-36a41dbd544f")
-		)
-		(instances
-			(project ""
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 186.69 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5001fa7-ecfe-40b7-abc4-b7cfeac2be34")
-		(property "Reference" "#PWR03"
-			(at 193.04 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 190.5 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 186.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b940de08-82da-4361-ae20-56810719b5a8")
-		)
-		(instances
-			(project "RFID_Reader"
-				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 260.35 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f570ac3e-92f6-42ac-82eb-cbcb58b5f568")
-		(property "Reference" "ThroughHole13"
-			(at 264.668 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 262.89 125.7299 0)
+			(at 190.246 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Custom_Connector:TH22"
-			(at 260.35 124.46 0)
+			(at 193.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +9416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 124.46 0)
+			(at 193.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +9425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 124.46 0)
+			(at 193.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,12 +9434,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "18d1ee29-5dc2-456d-96e5-23f1438f9ec4")
+			(uuid "7191f8c0-4419-45dc-9faf-35aff4dad812")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole13")
+					(reference "TH19")
 					(unit 1)
 				)
 			)
@@ -8559,7 +9472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_DIP-8"
+		(property "Footprint" "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering"
 			(at 113.03 167.64 0)
 			(effects
 				(font
@@ -8602,45 +9515,33 @@
 		)
 	)
 	(symbol
-		(lib_name "ThroughHole_2")
-		(lib_id "Custom_Connectors:ThroughHole")
-		(at 260.35 116.84 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 158.75 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "fed3fe4f-cad2-4647-8232-15aa817adb12")
-		(property "Reference" "ThroughHole16"
-			(at 264.668 116.84 0)
+		(fields_autoplaced yes)
+		(uuid "faa2fb34-5613-4a1c-9a87-9366c9ea1b4f")
+		(property "Reference" "H4"
+			(at 157.48 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 262.89 118.1099 0)
+		(property "Value" "MountingHole_Pad"
+			(at 157.48 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Connector:TH22"
-			(at 260.35 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 116.84 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 158.75 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,8 +9549,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 260.35 116.84 0)
+		(property "Datasheet" "~"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 158.75 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,19 +9568,86 @@
 			)
 		)
 		(pin "1"
-			(uuid "51f6f738-eaa2-4c7c-bddd-8fa85a4fce3d")
+			(uuid "5b976963-ca33-4580-814c-276f9ab18297")
 		)
 		(instances
 			(project "RFID_Reader"
 				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
-					(reference "ThroughHole16")
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 129.54 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc8df932-ac44-4f33-8520-0eb5e679305c")
+		(property "Reference" "#PWR09"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 133.35 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b3b5cfb-09ee-44f8-919c-65c564d1c08e")
+		)
+		(instances
+			(project "RFID_Reader"
+				(path "/4670be35-0898-46f4-be4d-f086d3203cc5"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 154.94 107.95)
+		(at 152.4 147.32)
 		(size 21.59 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8686,7 +9663,7 @@
 		)
 		(uuid "68791068-2e08-46a9-8a2f-80be28f652d5")
 		(property "Sheetname" "Antenna"
-			(at 154.94 107.2384 0)
+			(at 152.4 146.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +9672,7 @@
 			)
 		)
 		(property "Sheetfile" "antenna.kicad_sch"
-			(at 154.94 141.5546 0)
+			(at 152.4 180.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +9681,7 @@
 			)
 		)
 		(pin "ANT1" input
-			(at 154.94 111.76 180)
+			(at 152.4 151.13 180)
 			(uuid "ab9aa422-3f53-42f0-ab33-dc17732edb50")
 			(effects
 				(font
@@ -8714,7 +9691,7 @@
 			)
 		)
 		(pin "ANT2" input
-			(at 154.94 114.3 180)
+			(at 152.4 153.67 180)
 			(uuid "06dee836-5f65-43ba-b46c-9acfe4168988")
 			(effects
 				(font
@@ -8724,7 +9701,7 @@
 			)
 		)
 		(pin "RX1" input
-			(at 154.94 119.38 180)
+			(at 152.4 158.75 180)
 			(uuid "19555a99-97bf-4349-a5d0-0401e52420d3")
 			(effects
 				(font
@@ -8734,7 +9711,7 @@
 			)
 		)
 		(pin "RX2" input
-			(at 154.94 121.92 180)
+			(at 152.4 161.29 180)
 			(uuid "00645eaf-43a9-4627-8425-e8db5fac9ae9")
 			(effects
 				(font
@@ -8744,7 +9721,7 @@
 			)
 		)
 		(pin "TVSS" input
-			(at 154.94 127 180)
+			(at 152.4 166.37 180)
 			(uuid "af28a0d7-88ba-46c3-aef2-df0e78a74216")
 			(effects
 				(font
@@ -8754,7 +9731,7 @@
 			)
 		)
 		(pin "TX1" input
-			(at 154.94 130.81 180)
+			(at 152.4 170.18 180)
 			(uuid "d0cf5df5-779b-4696-83c1-8dc332b19bb4")
 			(effects
 				(font
@@ -8764,7 +9741,7 @@
 			)
 		)
 		(pin "TX2" input
-			(at 154.94 133.35 180)
+			(at 152.4 172.72 180)
 			(uuid "dc80a04b-3e6c-4e00-bcee-dc5932c888c0")
 			(effects
 				(font
@@ -8774,7 +9751,7 @@
 			)
 		)
 		(pin "VMID" input
-			(at 154.94 138.43 180)
+			(at 152.4 177.8 180)
 			(uuid "209dd032-2e0a-4954-bbff-06996b59cd57")
 			(effects
 				(font
