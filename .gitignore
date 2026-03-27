@@ -45,3 +45,9 @@ fp-info-cache
 *.dsn
 *.ses
 *.zip
+# Production Files (exported from Fabrication ToolKit)
+*.pos
+*.csv
+*.zip
+*.ipc
+ECAD/fabrication-toolkit-options.json
