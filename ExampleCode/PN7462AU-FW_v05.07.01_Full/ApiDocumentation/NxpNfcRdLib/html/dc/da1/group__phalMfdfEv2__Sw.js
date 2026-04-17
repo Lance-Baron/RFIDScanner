@@ -1,0 +1,35 @@
+var group__phalMfdfEv2__Sw =
+[
+    [ "phalMfdfEv2_Sw_DataParams_t", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html", [
+      [ "wId", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a33a0a463aa7d2e3e9524e0d2f9291085", null ],
+      [ "pPalMifareDataParams", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#af5b69d9de5800edb2a8b69664adcecc7", null ],
+      [ "pKeyStoreDataParams", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a3cb0fa7dc72c246dfa196443981fe928", null ],
+      [ "pCryptoDataParamsEnc", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a84100fca47c0478aac797a282a17f4c2", null ],
+      [ "pCryptoDataParamsMac", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#ad61cdc9ed142a590ef0af5703afcb785", null ],
+      [ "pCryptoRngDataParams", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a0c0b8e1dcdad06fd85084af748560962", null ],
+      [ "pHalDataParams", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a4faf9d3334aee619fc6b96d7a03c88c8", null ],
+      [ "bSesAuthENCKey", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#aefe082e8c9802caf0260beb8f04d9282", null ],
+      [ "bKeyNo", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a335fd6d7d14167a99589ec021d3b51fa", null ],
+      [ "bIv", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#aa2310e1e1c36246eddc2ecf88d215e99", null ],
+      [ "bAuthMode", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a5ffeeb1e318194e02815e8b794a48ded", null ],
+      [ "pAid", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a5004025e8e6e596c678866935f622991", null ],
+      [ "bCryptoMethod", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a91a5120eec2763c55d10851671c90e96", null ],
+      [ "bWrappedMode", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a3b26f0bf04547cba75dd3f62e7246dc5", null ],
+      [ "wCrc", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#aa27bf8dc5c0feefb8c8f169faa7045ba", null ],
+      [ "dwCrc", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#ac6b84577df254dc36e5c1406e44be54b", null ],
+      [ "wAdditionalInfo", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a8ef30ec01a27983c3b8514ca86872af9", null ],
+      [ "dwPayLoadLen", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a055a6d87c44faa69076ee0b24c1d50d1", null ],
+      [ "wCmdCtr", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a697860370886d1bd63a1554fd85ce430", null ],
+      [ "bTi", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a090ece1dc9aaa43d3519876da6430844", null ],
+      [ "bSesAuthMACKey", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#ad68d769e961b419fd4c6198a9a7ee51b", null ],
+      [ "pUnprocByteBuff", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a52918e84d97d5a977fdd5682f40d0728", null ],
+      [ "bNoUnprocBytes", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a839a7c3030a9fd1ff86a5207be669df2", null ],
+      [ "bLastBlockBuffer", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a8756b59bacc60e92ef4e95f1b6a47fa8", null ],
+      [ "bLastBlockIndex", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a67abd31a45273a1e05dc8bf4407dac1a", null ],
+      [ "pTMIDataParams", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#ace2c983b571baa73365cd96d126708db", null ],
+      [ "bShortLenApdu", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#ad28f2beeb0cdbeab6b7b768dba552b04", null ],
+      [ "pVCADataParams", "dc/d8e/structphalMfdfEv2__Sw__DataParams__t.html#a85408c3989a2e9de6bfdef829a1e892d", null ]
+    ] ],
+    [ "PHAL_MFDFEV2_SW_ID", "dc/da1/group__phalMfdfEv2__Sw.html#ga30fefc6f3c1513fe20e1fa51651b053c", null ],
+    [ "phalMfdfEv2_Sw_Init", "dc/da1/group__phalMfdfEv2__Sw.html#ga88cd197828fc47698072e2d619abd83a", null ]
+];

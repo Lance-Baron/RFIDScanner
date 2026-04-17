@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExCcid\phExCcid.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExCt\phExCt.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExCT7816\phExCT7816.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExCTEMVCo\phExCTEMVCo.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExDoorAccess\phExDoorAccess.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExEMVCo\phExEMVCo.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExHif\phExHif.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExMain\phExMain.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExNFCCcid\phExNFCCcid.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExPos\phExPos.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExRf\phExRf.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExRfPCDA\phExRfPCDA.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExRfPoll\phExRfPoll.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PN7462AU_ex_phExVCom\phExVCom.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

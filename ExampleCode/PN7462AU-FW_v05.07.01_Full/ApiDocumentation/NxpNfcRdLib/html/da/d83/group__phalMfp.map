@@ -1,0 +1,4 @@
+<map id="MIFARE Plus (R)" name="MIFARE Plus (R)">
+<area shape="rect" id="node2" href="$dd/d0d/group__phalMfp__Sw.html" title="Component : Software" alt="" coords="347,5,498,32"/>
+<area shape="rect" id="node3" href="$d3/d6e/group__phal.html" title="Contains Application specific implementations for various contactless cards (DESFIRE (R)..." alt="" coords="5,5,128,32"/>
+</map>

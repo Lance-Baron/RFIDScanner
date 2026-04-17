@@ -1,0 +1,4 @@
+<map id="MIFARE DESFire (R) EV2" name="MIFARE DESFire (R) EV2">
+<area shape="rect" id="node1" href="$dc/da1/group__phalMfdfEv2__Sw.html" title="Component : Software" alt="" coords="401,5,551,32"/>
+<area shape="rect" id="node2" href="$d3/d6e/group__phal.html" title="Contains Application specific implementations for various contactless cards (DESFIRE (R)..." alt="" coords="5,5,128,32"/>
+</map>
