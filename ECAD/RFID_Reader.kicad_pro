@@ -503,7 +503,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "RFID_Reader.step",
       "svg": "",
       "vrml": ""
     },
